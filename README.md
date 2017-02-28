@@ -18,11 +18,9 @@ var newNode=taClone(oldNode,'move');
       <th style="width: 100px;">参数</th>
         
       <th style="width: 50px;">类型</th>
-        
+ 
       <th style="width: 50px;">描述</th>
         
-      <th>description</th>
-    
      </tr>
   
   </thead>
@@ -30,14 +28,21 @@ var newNode=taClone(oldNode,'move');
         
       <tr>
          
-           <td>component</td>
+           <td>oldNode</td>
          
-           <td>React.Element/String</td>
-        
-           <td>'span'</td>
+           <td>DOM.Element</td>
+      
+           <td>需要复制的element</td>
           
-           <td>wrap dom node or component for children. set to '' if you do not wrap for only one child</td>
-       
+      </tr>
+       <tr>
+         
+           <td>className</td>
+         
+           <td>string</td>
+      
+           <td>选填，删除上一次动画class，如果没有将会再次执行上次动画</td>
+  
       </tr>
   </tbody>
 </table>
