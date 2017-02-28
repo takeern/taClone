@@ -9,10 +9,35 @@
 var newNode=taClone(oldNode,'move');
 ```
 ## API
-|              参数              |              类型              |                          描述                       |
-
-|--------------------------------|:------------------------------:|----------------------------------------------------:|
-
-|             oldNode            |            Element/DOM         |                    需要复制的节点                   |
-
-|            className           |              str               |  传入第一个动画Class，并删除，不添加则再次执行动画  |
+<table class="table table-bordered table-striped">
+    
+   <thead>
+    
+     <tr>
+       
+      <th style="width: 100px;">参数</th>
+        
+      <th style="width: 50px;">类型</th>
+        
+      <th style="width: 50px;">描述</th>
+        
+      <th>description</th>
+    
+     </tr>
+  
+  </thead>
+  <tbody>
+        
+      <tr>
+         
+           <td>component</td>
+         
+           <td>React.Element/String</td>
+        
+           <td>'span'</td>
+          
+           <td>wrap dom node or component for children. set to '' if you do not wrap for only one child</td>
+       
+      </tr>
+  </tbody>
+</table>
